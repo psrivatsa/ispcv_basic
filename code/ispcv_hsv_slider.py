@@ -8,7 +8,7 @@ def nothing(x):
 image = cv2.imread("../images/smarties.png")
 
 # Create a window
-cv2.namedWindow('HSV slider')
+cv2.namedWindow('image')
 
 # Create trackbars for color change
 # Hue is from 0-179 for Opencv
